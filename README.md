@@ -1,66 +1,25 @@
-## Foundry
+ZyperkNFT
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+ZyperkNFT is an ERC-721 Non-Fungible Token (NFT) smart contract created as a sample project for practice during the TechCrush Web3 Cohort 7 Bootcamp.
 
-Foundry consists of:
+## Features
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- ERC-721 Standard
+- Owner-only NFT Minting
+- IPFS Metadata Support
+- Safe Minting
+- Ownable Access Control
 
-## Documentation
+## Tech Stack
 
-https://book.getfoundry.sh/
+- Solidity
+- Foundry
+- OpenZeppelin
 
-## Usage
+## Deployment
 
-### Build
+- Network: Sepolia Testnet
 
-```shell
-$ forge build
-```
+## License
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+MIT
